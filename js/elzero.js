@@ -31,31 +31,6 @@ const updateCountDown = setInterval(() => {
 
 }, 1000);
 
-// Count From Zero To Number In Stats Section
-
-// let nums = document.querySelectorAll(".stats .number");
-// let statsSection = document.querySelector(".stats");
-// let started = false;
-
-// window.onscroll = () => {
-//     if (window.scrollY >= statsSection.offsetTop - 520) {
-//         if (!started) {
-//             nums.forEach((num) => startCount(num));
-//         }
-//         started = true;
-//     }
-// }
-
-// function startCount(el) {
-//     let goal = el.dataset.goal;
-//     let count = setInterval(() => {
-//         el.textContent++;
-//         if (el.textContent == goal) {
-//             clearInterval(count);
-//         }
-//     }, 2000 / goal);
-// }
-
 // Scroll To Top
 
 let arrow = document.querySelector(".up");
